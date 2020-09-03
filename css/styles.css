@@ -90,6 +90,7 @@ td {
 .numbers:active,
 .numbers:focus {
   outline: none;
+  background-color: #d2d1d6;
 }
 
 .operators:active,
@@ -100,6 +101,13 @@ td {
 .other:active,
 .other:focus {
   outline: none;
+  background-color: #c6c5c8;
+}
+
+#equal:active,
+#equal:focus {
+  outline: none;
+  background-color: #f27c0e;
 }
 
 #result {
