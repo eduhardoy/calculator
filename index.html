@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Poppins:wght@200&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="display">
+        <form name="displayform">
+          <input class="formview" name="formview" id="result" />
+        </form>
+      </div>
+      <div class="keys">
+        <table>
+          <tr>
+            <td>
+              <button class="other" id="reset" name="value-reset">C</button>
+            </td>
+            <td>
+              <button class="other" id="plusminus" name="value-plusminus">
+                ±
+              </button>
+            </td>
+            <td>
+              <button class="other" id="percentage" type="button">%</button>
+            </td>
+            <td>
+              <button class="operators" id="divi" name="value-operators">
+                ÷
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <button class="numbers" id="n7" name="value-numbers">7</button>
+            </td>
+            <td>
+              <button class="numbers" id="n8" name="value-numbers">8</button>
+            </td>
+            <td>
+              <button class="numbers" id="n9" name="value-numbers">9</button>
+            </td>
+            <td>
+              <button class="operators" id="multi" name="value-operators">
+                x
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <button class="numbers" id="n4" name="value-numbers">4</button>
+            </td>
+            <td>
+              <button class="numbers" id="n5" name="value-numbers">5</button>
+            </td>
+            <td>
+              <button class="numbers" id="n6" name="value-numbers">6</button>
+            </td>
+            <td>
+              <button class="operators" id="minus" name="value-operators">
+                -
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <button class="numbers" id="n1" name="value-numbers">1</button>
+            </td>
+            <td>
+              <button class="numbers" id="n2" name="value-numbers">2</button>
+            </td>
+            <td>
+              <button class="numbers" id="n3" name="value-numbers">3</button>
+            </td>
+            <td>
+              <button class="operators" id="plus" name="value-operators">
+                +
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <button
+                class="numbers"
+                id="n0"
+                name="value-numbers"
+                style="width: 186px"
+              >
+                0
+              </button>
+            </td>
+            <td>
+              <button class="numbers" id="dot" name="value-dot">.</button>
+            </td>
+            <td>
+              <button class="operators" id="equal" name="value-equal">=</button>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
