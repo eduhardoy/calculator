@@ -3,7 +3,7 @@
   margin: 0px;
   font-family: "Nunito", sans-serif;
   font-size: 40px;
-  background-color: #ffffff;
+  background-color: #1f1f1f;
 }
 
 .keys table {
@@ -87,15 +87,18 @@ td {
   background-color: #e3e3e5;
 }
 
+.numbers:active,
 .numbers:focus {
   outline: none;
   background-color: #d2d1d6;
 }
 
+.operators:active,
 .operators:focus {
   outline: none;
 }
 
+.other:active,
 .other:focus {
   outline: none;
   background-color: #c6c5c8;
@@ -115,7 +118,6 @@ td {
   color: #e4e4e4;
   font-size: 50px;
   text-align: right;
-  vertical-align: bottom;
   line-height: 60px;
   margin-bottom: 0px;
 }
