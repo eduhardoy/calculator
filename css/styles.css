@@ -87,18 +87,15 @@ td {
   background-color: #e3e3e5;
 }
 
-.numbers:active,
 .numbers:focus {
   outline: none;
   background-color: #d2d1d6;
 }
 
-.operators:active,
 .operators:focus {
   outline: none;
 }
 
-.other:active,
 .other:focus {
   outline: none;
   background-color: #c6c5c8;
